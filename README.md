@@ -60,17 +60,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Internet Speed Test <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project, I built a speed test app that tests the speed of your internet connection. The app is built with React and Redux. The app is deployed on netlify.
 
-**[your_project__name]** is a...
+**Internet Speed Test** is a web application that tests the speed of your internet connection. The app is built with React and Redux. The app is deployed on netlify.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Add the following features to your project:
 
 <details>
   <summary>Client</summary>
@@ -82,14 +82,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">React Server</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.postgresql.org/">API</a></li>
   </ul>
 </details>
 
@@ -97,11 +97,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Add the following features to your project:
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Test Downlaod Speed**
+- **Test Upload Speed**
+- **Test Ping**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> To get a local copy up and running follow these simple example steps.
 
 To get a local copy up and running, follow these steps.
 
@@ -207,15 +207,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Samiullah](https://github.com/samiullah997)
+- Twitter: [Samiullah](https://twitter.com/samiullahk997)
+- LinkedIn: [Samiullah](https://linkedin.com/in/sami-full-stack)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +217,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Add the following features to your project:
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Test Downlaod Speed**
+- **Test Upload Speed**
+- **Test Ping**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,7 +276,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
