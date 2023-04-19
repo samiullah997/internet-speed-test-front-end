@@ -16,26 +16,11 @@ const PlaceList = () => {
 
   const setDataSection = loadedPlaces.map((place) => (
     <div key={place.name}>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>City</th>
-            <th>Recent Upload Speed</th>
-            <th>Recent Upload Speed Units</th>
-            <th>Number of Measurements</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{place.name}</td>
-            <td>{place.city}</td>
-            <td>{place.most_recent_download_speed}</td>
-            <td>{place.most_recent_download_units}</td>
-            <td>{place.number_of_measurments}</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+        <div className="inline-block min-w-full shadow rounded-lg overflow-hidden">
+          
+        </div>
+      </div>
     </div>
   ));
   if (loading) {
