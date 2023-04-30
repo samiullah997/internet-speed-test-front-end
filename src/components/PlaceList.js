@@ -39,18 +39,7 @@ const PlaceList = () => {
                 >
                   Recent Upload Speed
                 </th>
-                <th
-                  scope="col"
-                  className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
-                >
-                  Recent Upload Speed Units
-                </th>
-                <th
-                  scope="col"
-                  className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider"
-                >
-                  Number of Measurements
-                </th>
+                
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
