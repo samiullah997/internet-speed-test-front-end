@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const PlaceList = () => {
   const [loading, setLoading] = useState(true);
@@ -34,7 +35,9 @@ const PlaceList = () => {
             <input className="bg-gray-50 outline-none ml-1 block " value={searchTerm} onChange={onSearchTextChange} type="text" name="" id="" placeholder="search..." />
           </div>
           <div className="lg:ml-40 ml-10 space-x-8">
-            <button className="bg-indigo-600 px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer" type="button">New Log</button>
+            <Link to="/new-internet-speed">
+              <button className="bg-indigo-600 px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer" type="button">New Log</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -81,7 +84,7 @@ const PlaceList = () => {
                   <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 w-10 h-10">
-                        <img className="w-full h-full rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="profile" />
+                        <img className="w-full h-full rounded-full" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="profile" />
                       </div>
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
