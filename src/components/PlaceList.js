@@ -5,6 +5,7 @@ const PlaceList = () => {
   const [loading, setLoading] = useState(true);
   const [loadedPlaces, setLoadedPlaces] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  let i = 0;
 
   useEffect(() => {
     const apiEndPoint = `http://localhost:3001/api/places?search_term=${searchTerm}`;
@@ -80,7 +81,8 @@ const PlaceList = () => {
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {loadedPlaces.map((place) => (
-                <tr key={place.name}>
+                /* eslint-disable-next-line no-plusplus */
+                <tr key={i++}>
                   <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 w-10 h-10">
