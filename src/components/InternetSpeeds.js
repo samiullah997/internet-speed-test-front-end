@@ -13,6 +13,10 @@ const InternetSpeeds = () => {
   const MAX_REQUESTS_FOR_SPEED_TEST = 5;
   const SPEED_TEST_PING_INTERVAL_MS = 1000;
 
+  const placeFieldValidation = () => (
+    placeName.length === 0 || placeCity.length === 0 || placeAddress.length === 0
+  );
+
   useEffect(() => {
     if (latestDownloadSpeeds) {
       const newDownloadSpeeds = [...downloadSpeeds, latestDownloadSpeeds];
@@ -123,9 +127,10 @@ const InternetSpeeds = () => {
             )}
           {!testInProgress && downloadSpeeds.length === 0 && (
             <button
-              className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+              className={!placeFieldValidation() ? 'w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline' : 'w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full focus:outline-none focus:shadow-outline disabled:opacity-40'}
               type="button"
               onClick={() => setTestInProgress(true)}
+              disabled={placeFieldValidation()}
             >
               Start Speed Test
             </button>
