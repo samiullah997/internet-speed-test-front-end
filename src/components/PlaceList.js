@@ -8,7 +8,7 @@ const PlaceList = () => {
   let i = 0;
 
   useEffect(() => {
-    const apiEndPoint = `http://localhost:3001/api/places?search_term=${searchTerm}`;
+    const apiEndPoint = `https://internet-speed-test.herokuapp.com/api/places?search_term=${searchTerm}`;
     fetch(apiEndPoint)
       .then((responce) => responce.json())
       .then((places) => {
@@ -86,7 +86,7 @@ const PlaceList = () => {
                   <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 w-10 h-10">
-                        <img className="w-full h-full rounded-full" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="profile" />
+                        <img className="w-full h-full rounded-full" src="https://img.freepik.com/premium-vector/round-speedometer-speed-test-download-vector-illustration-template_175838-2504.jpg?w=2000" alt="profile" />
                       </div>
                       <div className="ml-3">
                         <p className="text-gray-900 whitespace-no-wrap">
