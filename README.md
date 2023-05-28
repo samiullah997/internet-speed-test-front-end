@@ -94,6 +94,20 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 <details>
+<summary>Front-end</summary>
+  <ul>
+    <li><a href="https://github.com/samiullah997/internet-speed-test-front-end">Front-end</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Back-end</summary>
+  <ul>
+    <li><a href="https://github.com/samiullah997/internet-speed-test-back-end">Back-end</a></li>
+  </ul>
+</details>
+
+<details>
 <summary>Trello</summary>
   <ul>
     <li><a href="https://trello.com/invite/b/yReHG2jv/ATTIe6aba84826e4a43057fe43f21affbc0a43ADB031/internet-speed">Trello Board</a></li>
@@ -126,7 +140,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://public-internet-speed.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +154,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: Ruby 2.7.0 and Rails
 
 <!--
 Example command:
@@ -152,7 +166,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: git clone
 
 <!--
 Example commands:
@@ -165,7 +179,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with: bundle install
 
 <!--
 Example command:
@@ -178,7 +192,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: rails server
 
 <!--
 Example command:
@@ -190,7 +204,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: rails test
 
 <!--
 Example command:
@@ -202,7 +216,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: Heroku and Netlify.
 
 <!--
 Example:
