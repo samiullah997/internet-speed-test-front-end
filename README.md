@@ -93,6 +93,21 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+<details>
+<summary>Trello</summary>
+  <ul>
+    <li><a href="https://trello.com/invite/b/yReHG2jv/ATTIe6aba84826e4a43057fe43f21affbc0a43ADB031/internet-speed">Trello Board</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Miro</summary>
+  <ul>
+    <li><a href="https://miro.com/app/board/uXjVPghPCsw=/?share_link_id=1892014653">Miro Chart</a></li>
+  </ul>
+</details>
+
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
