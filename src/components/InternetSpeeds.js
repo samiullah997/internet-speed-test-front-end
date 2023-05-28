@@ -23,7 +23,7 @@ const InternetSpeeds = () => {
       setDownloadSpeeds(newDownloadSpeeds);
       const sufficientDataPoints = newDownloadSpeeds.length >= MAX_REQUESTS_FOR_SPEED_TEST;
       if (sufficientDataPoints) {
-        const apiEndPoint = 'http://localhost:3001/api/internet_speed';
+        const apiEndPoint = 'https://internet-speed-test.herokuapp.com/api/internet_speed';
         const data = {
           download_units: 'mbps',
           download_speed:
